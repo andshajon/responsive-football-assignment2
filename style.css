@@ -9,6 +9,9 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+
+/* header main style stars here */
 .main{
     background-color: blue;
 }
@@ -91,8 +94,11 @@ body{
 }
 
 
+/* Header main ends here */
 
 
+
+/* Players profile style starts here */
 
 
 
@@ -130,6 +136,10 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Players profile style  ends here */
+
+/* Middle section style  starts here */
 
 
 .middle{
@@ -171,10 +181,12 @@ body{
     padding-top: 250px;
 }
 
+/* Middle section style  ends here */
 
 
 
 
+/* Form section style  starts here */
 
 
 .form{
@@ -261,6 +273,9 @@ input[type="text"],[type="email"]{
     border: none;
     border-radius: 30px;
 }
+/* Form section style  ends here */
+
+/*Footer section  style  starts here */
 
 .footer{
     background-color: aliceblue;
@@ -301,6 +316,11 @@ input[type="text"],[type="email"]{
     margin-bottom: 30px;
     font-size: 18px;
 }
+
+/* Footer section style  ends here */
+
+
+/* Resposibe mobile device  style  Starts here */
 
 
 
@@ -385,6 +405,10 @@ input[type="text"],[type="email"]{
 
   }
 
+  /* Resposibe mobile device  style  ends here */
+
+  /* Resposibe Tablet device  style  starts here */
+
 
   @media screen and (max-width: 980px) {
   
@@ -402,6 +426,7 @@ input[type="text"],[type="email"]{
    
         grid-template-columns: repeat(2, 1fr);
         margin-left: 100px;
+        object-fit: cover;
        
 
 
@@ -412,6 +437,8 @@ input[type="text"],[type="email"]{
         
         
 }
+
+
     
     
 
@@ -432,3 +459,5 @@ input[type="text"],[type="email"]{
     
 
   }
+
+  /* Resposibe mobile device  style  ends here */
